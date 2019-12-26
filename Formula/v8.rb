@@ -57,7 +57,7 @@ class V8 < Formula
 
     # Enter the v8 checkout
     gn_args = {
-      :is_debug                     => false,
+      :is_debug                     => true,
       :is_component_build           => true,
       :v8_use_external_startup_data => false,
       :v8_enable_i18n_support       => false,        # enables i18n support with icu
